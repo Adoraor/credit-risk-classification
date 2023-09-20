@@ -6,13 +6,14 @@ This analysis focused on building a predictive machine learning model to assess 
 
 The objective of the analysis was to predict loan status, distinguishing between healthy (0) and high-risk loans (1). An initial exploration revealed the distribution of these labels. The analysis proceeded through stages:
 
-    - Data Preprocessing: Data was loaded, explored, and cleaned to prepare it for modeling.
+- Data Preprocessing: Data was loaded, explored, and cleaned to prepare it for modeling.
 
-    - Data Splitting: The dataset was divided into training and testing sets for model evaluation.
+- Data Splitting: The dataset was divided into training and testing sets for model evaluation.
 
-    - Logistic Regression Models: Two logistic regression models were employed. One utilized the original data, while the other used oversampled data created with Random Over Sampler.
+- Logistic Regression Models: Two logistic regression models were employed. One utilized the original data, while the other used oversampled data created with Random Over Sampler.
 
-    - Model Evaulation : The performance of the logistic regression models was assessed to determine their effectiveness in predicting loan status.
+- Model Evaulation : The performance of the logistic regression models was assessed to determine their effectiveness in predicting loan status.
+
 
 This analysis was done with the LogisticRegression method which estimates the probability of a given sample belonging to a particular class. It was selected for this analysis due to its interpretability and suitability for binary classification tasks.
 
@@ -20,18 +21,18 @@ This analysis was done with the LogisticRegression method which estimates the pr
 ## Results
 
 * Machine Learning Model 1:
-        - Balanced Accuracy: 0.952
-        - Precision for Label 0 (Healthy Loan): 1.00
-        - Recall for Label 0 (Healthy Loan): 0.99
-        - Precision for Label 1 (High-Risk Loan): 0.85
-        - Recall for Label 1 (High-Risk Loan): 0.91
+    - Balanced Accuracy: 0.952
+    - Precision for Label 0 (Healthy Loan): 1.00
+    - Recall for Label 0 (Healthy Loan): 0.99
+    - Precision for Label 1 (High-Risk Loan): 0.85
+    - Recall for Label 1 (High-Risk Loan): 0.91
 
 * Machine Learning Model 2:
-        - Balanced Accuracy: 0.994
-        - Precision for Label 0 (Healthy Loan): 1.00
-        - Recall for Label 0 (Healthy Loan): 0.99
-        - Precision for Label 1 (High-Risk Loan): 0.84
-        - Recall for Label 1 (High-Risk Loan): 0.99
+    - Balanced Accuracy: 0.994
+    - Precision for Label 0 (Healthy Loan): 1.00
+    - Recall for Label 0 (Healthy Loan): 0.99
+    - Precision for Label 1 (High-Risk Loan): 0.84
+    - Recall for Label 1 (High-Risk Loan): 0.99
 
 
 ## Summary
